@@ -1,0 +1,42 @@
+.Form {
+    display: flex; /* Use Flexbox layout */
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #b1adad;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #c8c8c8;
+    cursor: not-allowed;
+}
